@@ -1,0 +1,29 @@
+/* desktop media quiries */
+@media (max-width: 1200px) and (min-width: 768px) {
+
+}
+
+
+/* tablets media quiries */
+@media (max-width: 768px) and (min-width: 480px) {
+
+}
+
+
+/* mobile devices */
+@media (max-width: 480px) {
+.banner-wrap{
+display: flex;
+font-size: 1.5rem;
+flex-direction: column;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info {
+    text-align: center;
+}
+}
